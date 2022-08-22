@@ -1,0 +1,8 @@
+NVIspatial 0.1.0 - (2022-08-21)
+-------------------------------
+
+First release:
+
+  Tools to facilitate working with Spatial Data at NVI
+
+- is_it_in_Norway checks if geo locations are within Norway and set non-Norwegian coordinates to missing and/or flag them.
