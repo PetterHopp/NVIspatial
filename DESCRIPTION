@@ -1,0 +1,54 @@
+Package: NVIspatial
+Title: Tools to facilitate working with Spatial Data at NVI
+Version: 0.1.0
+Date: 2022-08.21
+Authors@R: 
+    c(person(given = "Petter",
+           family = "Hopp",
+           role = c("aut", "cre"),
+           email = "petter.hopp@vetinst.no",
+           comment = c(ORCID = "0000-0002-8695-0378")),
+    person(given = "Katharine Rose",
+           family = "Dean",
+           role = c("aut"),
+           email = "katharine.rose.dean@vetinst.no",
+           comment = c("ORCID = 0000-0003-2262-0385")),
+    person(given = "Johan",
+           family = "Åkerstedt",
+           role = c("ctb"),
+           email = "johan.akerstedt@vetinst.no",
+           comment = c("ORCID = 0000-0001-7887-6887")), 
+    person(given = "Attila",
+           family = "Tarpai",
+           role = c("ctb"),
+           email = "attila.tarpai@vetinst.no"), 
+    person(given = "Norwegian Veterinary Institute",
+           role = c("cph")))
+Description: Provides tools to facilitate working with spatial data at NVI. Currently, 
+    NVI spatial holds the function 'is_it_in_Norway'. The package will be extended with
+    other tools for handling (Norwegian) spatial data.
+License: BSD_3_clause + file LICENSE
+URL: https://github.com/NorwegianVeterinaryInstitute/NVIspatial
+BugReports: 
+    https://github.com/NorwegianVeterinaryInstitute/NVIspatial/issues
+Depends: 
+    R (>= 4.0.0)
+Encoding: UTF-8
+Language: en-GB
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    knitr,
+    checkmate (>= 2.1.0),
+    rmarkdown,
+    sf,
+    NVIrpackages (>= 0.3.0)
+Suggests: 
+    testthat (>= 3.0.0),
+    tibble
+Remotes: 
+    github::NorwegianVeterinaryInstitute/NVIrpackages
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+LazyData: true
+LazyDataCompression: xz
